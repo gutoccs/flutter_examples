@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter_examples/styles/red_button_style.dart';
+import 'package:flutter_examples/widgets/my_app_bar.dart';
 
 class NotExistsScreen extends StatelessWidget {
   const NotExistsScreen({Key? key}) : super(key: key);
@@ -8,14 +9,7 @@ class NotExistsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text(
-          'Página no existe',
-          style: TextStyle(fontSize: 24),
-        ),
-        centerTitle: true,
-        elevation: 0,
-      ),
+      appBar: myAppBar('Página no existe'),
       body: _CreateBody(),
     );
   }

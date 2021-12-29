@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_examples/pages/not_exists_screen.dart';
 
 import 'package:flutter_examples/routes/routes.dart';
 
@@ -17,6 +18,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
+      onGenerateRoute: (RouteSettings settings) {
+        return MaterialPageRoute(
+          builder: (BuildContext context) => const NotExistsScreen(),
+        );
+      },
     );
   }
 }

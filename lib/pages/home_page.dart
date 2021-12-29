@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_examples/styles/red_button_style.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -30,21 +31,10 @@ class MenuButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final ButtonStyle buttonStyle = ElevatedButton.styleFrom(
-      minimumSize: const Size(50, 50),
-      textStyle: const TextStyle(
-        fontSize: 24,
-      ),
-      elevation: 0,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(10),
-      ),
-    );
-
     return Padding(
       padding: const EdgeInsets.all(20),
       child: ElevatedButton(
-        style: buttonStyle,
+        style: redButtonStyle(),
         onPressed: () => Navigator.pushNamed(context, page),
         child: Text(textPage),
       ),

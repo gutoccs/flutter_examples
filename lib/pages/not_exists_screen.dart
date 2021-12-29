@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:flutter_examples/styles/red_button_style.dart';
+
 class NotExistsScreen extends StatelessWidget {
   const NotExistsScreen({Key? key}) : super(key: key);
 
@@ -49,16 +51,7 @@ class _CreateBody extends StatelessWidget {
             child: Text(
               'Ir al inicio',
             ),
-            style: ElevatedButton.styleFrom(
-              minimumSize: const Size(50, 50),
-              textStyle: const TextStyle(
-                fontSize: 24,
-              ),
-              elevation: 0,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10),
-              ),
-            ),
+            style: redButtonStyle(),
           ),
         ),
         SizedBox(

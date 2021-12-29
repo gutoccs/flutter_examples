@@ -1,16 +1,9 @@
-# flutter_examples
+![banner](https://raw.githubusercontent.com/gutoccs/gutoccs/main/top_image.jpg)
 
-A new Flutter project.
+## Flutter Examples - Ejemplos de Flutter :wave:
 
-## Getting Started
+En este repositorio iré colocando poco a poco código de Flutter.
 
-This project is a starting point for a Flutter application.
+### Basic Cam (basic_cam) - Cámara Básica
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+En esta sección se utiliza un paquete simple para manejar la cámara y explorar la Galería de Imágenes. Además, utilizo el Manejador de Estados Providers.

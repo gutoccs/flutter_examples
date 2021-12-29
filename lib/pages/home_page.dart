@@ -11,7 +11,12 @@ class HomePage extends StatelessWidget {
       appBar: myAppBar('Flutter Examples'),
       body: ListView(
         // ignore: prefer_const_literals_to_create_immutables
-        children: [],
+        children: [
+          const MenuButton(
+            page: 'basic_cam',
+            textPage: 'Cámara Básica',
+          ),
+        ],
       ),
     );
   }

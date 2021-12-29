@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+/* OJO el AppBar no es un widget */
+
 AppBar myAppBar(String auxText) {
   return AppBar(
     title: Text(

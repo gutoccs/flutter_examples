@@ -21,3 +21,16 @@ Para que este paquete termine de generar y configurar el ícono se debe ejecutar
 
 **flutter packages pub run flutter_launcher_icons:main**
 
+### Cambio de nombre de la Aplicación
+
+El nombre por defecto de la App es el nombre de nuestro proyecto, en mi caso era: **flutter_examples**
+
+El nuevo nombre que se muestra junto al ícono es: **F Examples**
+
+Para esto solo se tuvo que editar dos archivos:
+
+**flutter_examples/android/app/src/main/AndroidManifest.xml**
+
+**flutter_examples/ios/Runner/Info.plist**
+
+El primero edita el nombre para el Sistema Operativo **Android** y el segundo para **iOS**.

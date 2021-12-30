@@ -21,6 +21,7 @@ Para que este paquete termine de generar y configurar el ícono se debe ejecutar
 
 **flutter packages pub run flutter_launcher_icons:main**
 
+
 ### Cambio de nombre de la Aplicación
 
 El nombre por defecto de la App es el nombre de nuestro proyecto, en mi caso era: **flutter_examples**

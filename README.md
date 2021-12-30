@@ -35,3 +35,16 @@ Para esto solo se tuvo que editar dos archivos:
 **flutter_examples/ios/Runner/Info.plist**
 
 El primero edita el nombre para el Sistema Operativo **Android** y el segundo para **iOS**.
+
+
+### Cambio de Splash Screen en Android
+
+Ahora, mientras se está cargando la App mostrará a Charizard.
+
+Esta manera de cambiar el Splash Screen, es una forma simplista.
+
+Lo idóneo es colocar la imagen en las carpetas mipmap con un tamaño en específico. Ya que Android determina el tamaño de la pantalla donde se está ejecutando la App y seleccionará la indicada.
+
+Sin embargo, de igual manera resulta.
+
+

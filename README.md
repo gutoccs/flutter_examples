@@ -48,3 +48,6 @@ Lo idóneo es colocar la imagen en las carpetas mipmap con un tamaño en especí
 Sin embargo, de igual manera resulta.
 
 
+### Transparent AppBar (transparent_app_bar) - AppBar Transparent
+
+No solo basta con colocar el color de fondo del AppBar en transparente, es necesario extender el body y quitar las sombras

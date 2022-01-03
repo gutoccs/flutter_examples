@@ -20,6 +20,10 @@ class HomePage extends StatelessWidget {
             page: 'transparent_app_bar',
             textPage: 'AppBar Transparente',
           ),
+          const MenuButton(
+            page: 'page_view',
+            textPage: 'Page View',
+          ),
         ],
       ),
     );

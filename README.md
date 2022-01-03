@@ -51,3 +51,14 @@ Sin embargo, de igual manera resulta.
 ### Transparent AppBar (transparent_app_bar) - AppBar Transparent
 
 No solo basta con colocar el color de fondo del AppBar en transparente, es necesario extender el body y quitar las sombras
+
+
+### Page View (page_view) - Page View
+
+PageView permite deslizarnos entre diferentes pantallas, en este caso creo 3 pantallas y el deslizamiento es vertical.
+
+Por razones de comodidad construyo un Widget con el fin de reutilizarlo, para poder reutilizarlo debe recibir los parámetros, nombre de la playa, ubicación, URL de la imagen, entre otros.
+
+En este ejemplo hago uso del Widget Stack, el cual nos permite apilar Widgets, es decir, coloca los Widgets uno encima del otro y en orden.
+
+Además, las imágenes están en Internet y mientras realiza la carga muestra una imagen Placeholder, esta imagen si está en local.

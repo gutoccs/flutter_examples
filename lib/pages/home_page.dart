@@ -16,6 +16,10 @@ class HomePage extends StatelessWidget {
             page: 'basic_cam',
             textPage: 'Cámara Básica',
           ),
+          const MenuButton(
+            page: 'transparent_app_bar',
+            textPage: 'AppBar Transparente',
+          ),
         ],
       ),
     );

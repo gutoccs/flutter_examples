@@ -24,6 +24,10 @@ class HomePage extends StatelessWidget {
             page: 'page_view',
             textPage: 'Page View',
           ),
+          const MenuButton(
+            page: 'credit_card',
+            textPage: 'Tarjeta de Crédito',
+          ),
         ],
       ),
     );

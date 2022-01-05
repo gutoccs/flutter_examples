@@ -4,6 +4,7 @@
 
 En este repositorio iré colocando poco a poco código de Flutter.
 
+
 ### Basic Cam (basic_cam) - Cámara Básica
 
 En esta sección se utiliza un paquete simple para manejar la cámara y explorar la Galería de Imágenes. Además, utilizo el Manejador de Estados Providers.
@@ -62,3 +63,17 @@ Por razones de comodidad construyo un Widget con el fin de reutilizarlo, para po
 En este ejemplo hago uso del Widget Stack, el cual nos permite apilar Widgets, es decir, coloca los Widgets uno encima del otro y en orden.
 
 Además, las imágenes están en Internet y mientras realiza la carga muestra una imagen Placeholder, esta imagen si está en local.
+
+
+### Credit Card (credit_card) - Tarjeta de Crédito
+
+En este ejemplo se utiliza un paquete que nos ayuda a tomar los datos de la tarjeta de crédito del usuario.
+
+A medida que se van tomando los datos, estos se va mostrando en una tarjeta que se pinta en la pantalla.
+
+Además, se utiliza providers con el fin de hacer el ejemplo lo más real posible.
+
+Se podría decir que lo único que falta es realizar las validaciones de los datos
+
+Sin embargo, en el ejemplo se deja las variables donde se debe guardar el error de cada campo y estas variables ya están siendo consumidas por el widget.
+
